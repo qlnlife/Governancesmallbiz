@@ -1,106 +1,54 @@
-# Governance Small Biz
+# Governance for the Solopreneur AI Agent Company
 
-**A constitutional grammar for human-AI governance — compiled for small business.**
+You run a business. You use AI agents to do the work. The agents draft, research, analyze, deploy, monitor. They produce output that you review, sign, and send to clients.
 
-This repository is the standalone, self-contained reference implementation of the 5QLN governance mechanism adapted for small businesses, sole proprietorships, and partnerships. It does not require a foundation, a 501(c)(3), or a Delaware filing. It works today, on your laptop, for your actual business decisions.
+Here's the question nobody's asking yet: **when you sign what an agent produced, who actually decided?**
 
----
+Not "who clicked send." Who exercised judgment? Where did the agent's pattern-matching end and your thinking begin? If a client sues, if a regulator asks, if you review your own work six months later — can you tell?
 
-## What This Is
-
-A governance mechanism that makes the boundary between human judgment and AI assistance **structurally visible and verifiable.** It uses a 217-byte constitutional grammar (the 5QLN Codex) to produce decision records that show:
-
-- Where the question came from (genuine not-knowing, or manufactured)
-- What pattern was recognized (the α — the irreducible core of the decision)
-- Where human judgment and AI analysis intersected
-- What gradient the decision followed
-- What question the decision opens for the future
-
-The same five corruption codes detect structural failures whether you run a sole proprietorship or a DAO. The mechanism scales without changing.
+This repo is the answer. Not a framework. Not compliance software. A **decision record you fill out in 10 minutes** that makes the boundary between your judgment and your agents' output structurally visible. Verifiable. Auditable. Defensible.
 
 ---
 
-## Quick Start
+## What's Here
 
-1. **Read the Manifesto** — `MANIFESTO.md` — the case for why this exists
-2. **Read the Adapter** — `ADAPTER.md` — how it works for your business
-3. **Use the Template** — `TEMPLATE-SBDR.md` — fill it out for your next decision
-4. **See the Example** — `decisions/d1-2026-06-01-agent-structure.md` — a real S-BDR
-5. **Run It** — produce 3 decision records this week. Audit them yourself. See if the Membrane held.
-
----
-
-## Repository Structure
-
-| File | What It Is |
-|------|-----------|
-| `MANIFESTO.md` | The case to the world — why governance needs a grammar |
-| `ADAPTER.md` | Full mechanism: invariant substrate, legal adaptation, operational scenarios, decentralized horizon |
-| `STRESS-TEST.md` | 5 decisions modeled — when the Membrane holds, when it ruptures |
-| `ORCHESTRATION.md` | Multi-agent deployment architecture for Hermes |
-| `TEMPLATE-SBDR.md` | Blank decision record — fill out in 10 minutes |
-| `CODEX.md` | The constitutional grammar — 217 bytes, 9 lines, SHA-256 pinned |
-| `decisions/` | Your S-BDRs live here |
-| `ledger/` | Audit entries — structural validation of decisions |
-| `LICENSE` | Apache 2.0 (implementation) + CC BY-ND 4.0 (Codex kernel) |
+| If you want to... | Read this |
+|-------------------|-----------|
+| Understand why this exists | [`THE-MECHANISM.md`](THE-MECHANISM.md) — the problem, the fix, the core concepts |
+| Produce your first decision record | [`YOUR-FIRST-DECISION.md`](YOUR-FIRST-DECISION.md) — 10-minute walkthrough |
+| Set up the agents that audit your decisions | [`THE-FIVE-AGENTS.md`](THE-FIVE-AGENTS.md) — deployment on Hermes |
+| Fill out a decision record right now | [`TEMPLATE.md`](TEMPLATE.md) — blank S-BDR, copy and fill |
+| See real examples | [`EXAMPLES.md`](EXAMPLES.md) — two annotated decision records |
+| Reference the grammar | [`CODEX.md`](CODEX.md) — the 217 bytes this is all built on |
 
 ---
 
-## The Core Claim
+## The Core Idea in One Paragraph
 
-> **A small business running this mechanism for one year produces a decision trail that a court, an auditor, a buyer, or your future self can verify. The 10 minutes per decision it costs is the price of making your judgment visible — and defensible.**
-
----
-
-## The Grammar (217 bytes)
-
-```
-1.  H = ∞0 | A = K
-2.  S → G → Q → P → V
-3.  S = ∞0 → ?
-4.  G = α ≡ {α'}
-5.  Q = φ ⋂ Ω
-6.  P = δE/δV → ∇
-7.  V = (L ∩ G → B'') → ∞0'
-8.  No V without ∞0'
-9.  L1  L2  L3  L4  V∅
-```
-
-SHA-256: `feaa46b4147d4e023cdd3fd59c051d063e8ec654ee7b38a481dcd5e4c781859b`
+Every material business decision gets a one-page record: what question opened it, what pattern you recognized, where your judgment met the AI's analysis, what gradient you followed, what question it opens for next time. Five corruption codes catch structural failures — like asking the AI for an answer instead of a question, or performing deliberation without substance. The record takes 10 minutes. It creates a trail that you, a court, an auditor, or a buyer can verify. Your agents audit the records automatically. You review the audits. The Membrane holds.
 
 ---
 
 ## Who This Is For
 
-- **Sole proprietors** who use AI in their business and want a record of where they thought vs. where the AI generated
-- **Small business partners** who need the Duty of Membrane Integrity to be enforceable between them
-- **Consultants and freelancers** whose professional liability depends on showing independent judgment
-- **Anyone building toward decentralized governance** who needs the organizational version first
+- **Solopreneurs using AI agents** (Hermes, Claude, Codex) to run their business
+- **Small agency owners** who sign work their agents helped produce
+- **Freelancers and consultants** whose liability depends on showing independent judgment
+- **Anyone who's thought** *"how much of this did I actually decide?"* after signing an agent's output
 
 ---
 
-## What This Is Not
+## Who This Is NOT For
 
-- Not a framework. Frameworks prescribe steps for specific domains. This is a grammar — constant structure, infinite expressiveness.
-- Not compliance software. It produces records, not reports. The audit is structural, not regulatory.
-- Not surveillance. It monitors decision structure, not people. It does not score or rank.
-- Not a cryptocurrency. The decentralized horizon is Year 2+. Year 1 is the organizational ledger.
-
----
-
-## The Minimum Viable Governance Unit
-
-From the stress test: **One human who means it.** The Membrane holds for a sole proprietor — if she produces honest records. But enforcement requires two. The Membrane is a covenant between the human who decides and the human who reviews. Without the reviewer, it's a promise. With the reviewer, it's a contract.
+- Large organizations with compliance departments (this scales there, but start here)
+- People who don't use AI in decision-making (you don't need this yet)
+- People looking for a regulatory framework (this is voluntary infrastructure, not law)
 
 ---
 
-## Links
+## Start Here
 
-- Full corpus: [5qln.com](https://www.5qln.com)
-- Codex: [5qln.com/codex](https://www.5qln.com/codex)
-- Master page: [An Open Experiment in Constitutional Governance](https://www.5qln.com/an-open-experiment-in-constitutional-governance-for-the-ai-era/)
-- Full wiki: [qlnlife/5qln-LLM-wiki](https://github.com/qlnlife/5qln-LLM-wiki)
-- Agent bootstrap: [qlnlife/5qln-Agent-Install](https://github.com/qlnlife/5qln-Agent-Install)
+Read [`YOUR-FIRST-DECISION.md`](YOUR-FIRST-DECISION.md). It takes 5 minutes. Then produce your first decision record. The next business decision you make — pricing, hiring, tooling, strategy — is your D1.
 
 ---
 
